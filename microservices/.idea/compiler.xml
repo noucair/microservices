@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservice (1) (com.produits)" />
+        <module name="config-server" />
+        <module name="clientui" />
+        <module name="microservice (1) (com.paiement)" />
+        <module name="microservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="clientui" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="gateway-server" target="1.8" />
+      <module name="microservice" target="1.8" />
+      <module name="microservice (1) (com.paiement)" target="1.8" />
+      <module name="microservice (1) (com.produits)" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="clientui" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="gateway-server" options="-parameters" />
+      <module name="microservice" options="-parameters" />
+      <module name="microservice (1) (com.paiement)" options="-parameters" />
+      <module name="microservice (1) (com.produits)" options="-parameters" />
+    </option>
+  </component>
+</project>
